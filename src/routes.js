@@ -11,7 +11,7 @@ import About from './Components/About';
 class Routes extends Component {
     render() {
         return (
-            <HashRouter basename = "/worldofnlp/#/">
+            <HashRouter>
                 <Header/>
                 <Switch> 
                     <Route path = "/about" component = {About}/>
