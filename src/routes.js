@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Switch, BrowserRouter, Route} from 'react-router-dom';
+import {Switch, HashRouter, Route} from 'react-router-dom';
 import Home from './Components/Home';
 import Sentiment from './Components/Sentiment';
 import Summary from './Components/Summary';
@@ -11,17 +11,17 @@ import About from './Components/About';
 class Routes extends Component {
     render() {
         return (
-            <BrowserRouter>
+            <HashRouter basename = "/">
                 <Header/>
                 <Switch> 
-                    <Route path = "/worldofnlp/about" component = {About}/>
-                    <Route path = "/worldofnlp/text_summary" component = {Summary}/>
-                    <Route path = "/worldofnlp/emotion_analysis" component = {Mood}/>
-                    <Route path = "/worldofnlp/sentiment_analysis" component = {Sentiment}/>
+                    <Route path = "/about" component = {About}/>
+                    <Route path = "/text_summary" component = {Summary}/>
+                    <Route path = "/emotion_analysis" component = {Mood}/>
+                    <Route path = "/sentiment_analysis" component = {Sentiment}/>
                     <Route path = "/" component = {Home}/>
                 </Switch>
                 <Footer/>
-            </BrowserRouter>
+            </HashRouter>
         )
     }
 }

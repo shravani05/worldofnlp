@@ -18,11 +18,11 @@ class Header extends Component {
                     <Nav className = "header-nav">
                         <Nav.Link href="/" style = {{fontFamily:  "'Josefin Sans', sans-serif"}}>Home</Nav.Link>
                         <NavDropdown title="Explore" id="collasible-nav-dropdown" style = {{fontFamily:  "'Josefin Sans', sans-serif"}}>
-                            <NavDropdown.Item href="/worldofnlp/sentiment_analysis">Sentiment Analysis</NavDropdown.Item>
-                            <NavDropdown.Item href="/worldofnlp/emotion_analysis">Emotion Analysis</NavDropdown.Item>
-                            <NavDropdown.Item href="/worldofnlp/text_summary">Text Summary</NavDropdown.Item>
+                            <NavDropdown.Item href="/sentiment_analysis">Sentiment Analysis</NavDropdown.Item>
+                            <NavDropdown.Item href="/emotion_analysis">Emotion Analysis</NavDropdown.Item>
+                            <NavDropdown.Item href="/text_summary">Text Summary</NavDropdown.Item>
                         </NavDropdown>
-                        <Nav.Link href="/worldofnlp/about" style = {{fontFamily:  "'Josefin Sans', sans-serif"}}>About</Nav.Link>
+                        <Nav.Link href="/about" style = {{fontFamily:  "'Josefin Sans', sans-serif"}}>About</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
