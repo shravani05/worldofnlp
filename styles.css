@@ -1,0 +1,86 @@
+.header-nav{
+    padding: 10px;
+    padding-top: 10px;
+    color: white;
+    font-family:  'Josefin Sans', sans-serif;
+}
+
+.home{
+    margin: 20px;
+    text-align: center;
+    font-family:  'Josefin Sans', sans-serif;
+}
+
+.img{
+    width: 100%;
+    height: 500px;
+}
+
+.cards{
+    margin: 20px;
+    padding: 20px;
+}
+
+.sentiment-img{
+    height: 60px;
+    width: 60px;
+    vertical-align: middle;
+}
+
+
+textarea.form-control{
+    width: 60%;
+}
+
+.text-input .text-area{
+    height: 100px;
+    margin-left: 20%;
+    margin-bottom: 3%
+}
+
+.text-input .text-area-summary{
+    height: 150px;
+    margin-left: 20%;
+    margin-bottom: 3%
+}
+
+.text-input .text-sentence{
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 2%
+}
+
+.result{
+    margin: 30px;
+    font-family:  'Josefin Sans', sans-serif;
+}
+
+.intro-text{
+    margin: 20px;
+    font-family:  'Josefin Sans', sans-serif;
+}
+
+.result-summary{
+    margin: 20px;
+    margin-left: 20%;
+    text-align: left;
+    font-family:  'Josefin Sans', sans-serif;
+}
+
+html { height: 100%; }
+body {
+    min-height:100%; 
+    position:relative; 
+}
+.footer { 
+    position: absolute; 
+    left: 0 ; right: 0; bottom: -85px; 
+    background-color: #343a40!important;
+    width: 100%;
+    padding: 20px;
+    font-family:  'Josefin Sans', sans-serif;
+}
+
+.about{
+    margin: 60px;
+}
