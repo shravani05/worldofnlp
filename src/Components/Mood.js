@@ -69,7 +69,7 @@ class Mood extends Component {
                 <Formik
                     initialValues={{text: "I now feel compromised and skeptical of the value of every unit of work I put in"}}
                     onSubmit = {values => {
-                        axios.post('/mood/', values)
+                        axios.post('https://worldofnlp.herokuapp.com/mood/', values)
                         .then(response => {
                         this.setState({mood: response.data.result})
                         })

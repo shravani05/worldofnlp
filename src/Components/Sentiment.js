@@ -22,7 +22,7 @@ class Sentiment extends Component {
                 <Formik
                     initialValues={{review: "I am good review!"}}
                     onSubmit = {values => {
-                        axios.post('/sentiment/', values)
+                        axios.post('https://worldofnlp.herokuapp.com/sentiment/', values)
                         .then(response => {
                         this.setState({sentimentClassification: response.data.result})
                         })
