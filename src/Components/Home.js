@@ -25,7 +25,7 @@ class Home extends Component{
                         <Card.Text>
                         Get a quick analysis of whether your Review belongs to the Positive or Negative class.
                         </Card.Text>
-                        <Card.Link href="/sentiment_analysis">Explore now</Card.Link>
+                        <Card.Link href="/worldofnlp/sentiment_analysis">Explore now</Card.Link>
                         </Card.Body>
                     </Card>
 
@@ -40,7 +40,7 @@ class Home extends Component{
                         <Card.Text>
                         Get a quick analysis of the emotion of the writer based on the writer's content.
                         </Card.Text>
-                        <Card.Link href="/emotion_analysis">Explore now</Card.Link>
+                        <Card.Link href="/worldofnlp/emotion_analysis">Explore now</Card.Link>
                         </Card.Body>
                     </Card>
 
@@ -55,7 +55,7 @@ class Home extends Component{
                         <Card.Text>
                         Get a quick summary of a given number of sentences for your data.
                         </Card.Text>
-                        <Card.Link href="/text_summary">Explore now</Card.Link>
+                        <Card.Link href="/worldofnlp/text_summary">Explore now</Card.Link>
                         </Card.Body>
                     </Card>
 
