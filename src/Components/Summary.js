@@ -21,7 +21,7 @@ class Summary extends Component {
                     </h4>
                 </div>
                 <Formik
-                    initialValues={{content: "Solo travel is not for everyone. Some people return home soon after departing, others cry for weeks before embracing it, and some just embrace it right away. But you’ll never learn that if you don’t travel once by yourself. Whether a weekend away, a two-week vacation, or trip around the world, try it at least once. Don’t wait for people or hold back from living your dreams. You could be waiting a long time until someone finally says yes. There’s only now — and if you don’t go, you’ll regret it.", sentences: "2"}}
+                    initialValues={{content: "Solo travel is not for everyone. Some people return home soon after departing, others cry for weeks before embracing it, and some just embrace it right away. Whether a weekend away, a two-week vacation, or trip around the world, try it at least once. Don’t wait for people or hold back from living your dreams. You could be waiting a long time until someone finally says yes. There’s only now — and if you don’t go, you’ll regret it.", sentences: "2"}}
                     onSubmit = {values => {
                         axios.post('https://worldofnlp.herokuapp.com/summary/', values)
                         .then(response => {
