@@ -10,7 +10,7 @@ class Home extends Component{
       <div>
             <Image src="./images/nlp2.jpeg" fluid className = "img"/>
             <div className = "home">
-                <h4>Dive into the world of  Natural Language Processing by exploring following options.
+                <h4>Dive into the world of Natural Language Processing by exploring following options.
                      Play with the text and experience the power of Machine Learning Algorithms. </h4>
                 <div className = "cards">
                     <CardDeck>
